@@ -4,13 +4,6 @@ library(mvtnorm)
 library(invgamma)
 library(Rlab)
 
-#1-(a)
-n=10000
-p=10
-
-Xmat = rmvnorm(n,rep(0,10),diag(p))
-head(Xmat)
-dim(Xmat)
 
 #1-(b)
 true_beta = c(0.5, -0.5, 1, -1, 0.7, 0, 0, 0, 0, 0)
